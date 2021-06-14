@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Giới thiệu - Thế giới điện thoại</title>
+    <link rel="shortcut icon" href="img/favicon.ico" />
+
+    <!-- Load font awesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        crossorigin="anonymous">
+        
+    <!-- our files -->
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/topnav.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/taikhoan.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/gioithieu.css">
+
+    <!-- js -->
+    <script src="data/products.js"></script>
+	<script src="js/dungchung.js"></script>
+    <script>
+        window.onload = function () {
+            khoiTao();
+            // thêm tags (từ khóa) vào khung tìm kiếm
+            var tags = ["Samsung", "iPhone", "Huawei", "Oppo", "Mobi"];
+            for (var t of tags) addTags(t, "index.html?search=" + t);
+        }
+    </script>
+
+</head>
+
+<body>
+    <script> addTopNav();</script>
+
+    <section style="min-height: 85vh">
+        <script> addHeader(); </script>
+
+        <div class="page-gt">
+            <h4 class="page-header">
+                Giới thiệu
+            </h4>
+            <div class="page-info">
+                <p>Đại học không phải con đường duy nhất để thành công trong cuộc sống, tuy nhiên nó là hành trang cần và đủ để tiến xa hơn trên con đường học vấn.
+                     Ngoài sự nỗ lực học tập, các em học sinh cần được trau dồi hơn về kiến thức và kỹ năng giải quyết bài tập để có thể tự tin thi đỗ đại học. 
+                     Lúc này, vai trò của các trung tâm luyện thi đại học là rất cần thiết.
+                     Qua bài viết sau, toplist sẽ giới thiệu đến các bạn 10 trung tâm luyện thi đại học uy tín nhất ở TP.Hồ Chí Minh để các bạn tham khảo.
+                </p>
+                <br />
+                <p>
+                    Trung tâm luyện thi đại học Ước Mơ
+                    Trên 23 năm chặng đường xây dựng và phát triển, Trung tâm luyện thi đại học Ước Mơ đã để lại trong lòng đông đảo nhiều thế hệ học sinh nhiều ấn tượng tốt đẹp.
+                    Trung tâm sở hữu nguồn giáo viên chất lượng, trẻ, giỏi chuyên môn, đầy tâm huyết, đến từ các trường đại học và THPT hàng đầu tại Tp.HCM như: Trường Đại học Khoa học Tự nhiên,
+                     Trường Đại học Khoa học Xã hội và nhân văn, Trường Đại học Sư phạm, Trường Phổ thông Năng khiếu, ...
+                    Trung tâm được trang bị hệ thống phòng học hiện đại (phòng máy lạnh, được trang bị dành cho các chương trình đào tạo chất lượng cao),
+                     sĩ số lớp hạn chế, giáo viên bám sát chặt chẽ sự tiến bộ việc học của học sinh.
+                    Sự tiến bộ trong học tập của học sinh được đánh giá hàng tuần thông qua hệ thống bài tập và bài kiểm tra hàng tuần dành cho học sinh.
+                     Kết quả đánh giá được tương tác thường xuyên với phụ huynh, nhằm đáp ứng tốt nhất sự kỳ vọng của phụ huynh về việc học của học sinh.   
+                     Hàng năm trung tâm có khoảng 80 - 90% các em đạt trên điểm sàn, trong đó có khoảng 55 - 60% 
+                     các em đậu vào nguyện vọng 1 của các trường Đại Học và Cao Đẳng (theo số liệu thống kê của Văn Phòng Đại Diện Phía Nam - Bộ GD&ĐT).    
+                </p>
+                <br />
+                <h4>Thông tin liên hệ:</h4>
+                <p>Địa chỉ: 12 Nguyễn Văn Bảo, Phường 4, Gò Vấp, Thành phố Hồ Chí Minh, Việt Nam.</p>
+                <p>Điện thoại: 028.2828.2288</p>
+                <p>Email: UocmoVietNam@gmail.com</p>
+                <p>Thời gian hoạt động: 7:00 - 21:00</p>
+            </div>
+        </div>
+    </section>
+
+    <script> addContainTaiKhoan(); </script>
+
+    <div class="footer">
+        <script>addFooter();</script>
+        
+    </div>
+
+    <i class="fa fa-arrow-up" id="goto-top-page" onclick="gotoTop()"></i>
+</body>
+
+</html>
